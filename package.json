@@ -1,0 +1,29 @@
+{
+  "name": "uploadtopinata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanishIsmail/uploadToPinata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanishIsmail/uploadToPinata/issues"
+  },
+  "homepage": "https://github.com/DanishIsmail/uploadToPinata#readme",
+  "dependencies": {
+    "@pinata/sdk": "^1.1.26",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19"
+  }
+}
